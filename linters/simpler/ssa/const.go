@@ -117,7 +117,7 @@ func (c *Const) IsNil() bool {
 	return c.Value == nil
 }
 
-// TODO(adonovan): move everything below into github.com/360EntSecGroup-Skylar/goreporter/linters/simpler/ssa/interp.
+// TODO(adonovan): move everything below into github.com/bnulwh/goreporter/linters/simpler/ssa/interp.
 
 // Int64 returns the numeric value of this constant truncated to fit
 // a signed 64-bit integer.

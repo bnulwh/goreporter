@@ -4,7 +4,7 @@
 
 package callgraph
 
-import "github.com/360EntSecGroup-Skylar/goreporter/linters/simpler/ssa"
+import "github.com/bnulwh/goreporter/linters/simpler/ssa"
 
 // This file provides various utilities over call graphs, such as
 // visitation and path search.

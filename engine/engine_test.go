@@ -18,7 +18,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/360EntSecGroup-Skylar/goreporter/engine/processbar"
+	"github.com/bnulwh/goreporter/engine/processbar"
 	"github.com/facebookgo/inject"
 	"github.com/golang/glog"
 )

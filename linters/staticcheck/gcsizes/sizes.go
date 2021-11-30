@@ -4,7 +4,7 @@
 
 // Package gcsizes provides a types.Sizes implementation that adheres
 // to the rules used by the gc compiler.
-package gcsizes // import "github.com/360EntSecGroup-Skylar/goreporter/linters/staticcheck/gcsizes"
+package gcsizes // import "github.com/bnulwh/goreporter/linters/staticcheck/gcsizes"
 
 import (
 	"go/build"

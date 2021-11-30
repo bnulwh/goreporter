@@ -8,7 +8,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/360EntSecGroup-Skylar/goreporter/utils"
+	"github.com/bnulwh/goreporter/utils"
 )
 
 var languages = []Language{

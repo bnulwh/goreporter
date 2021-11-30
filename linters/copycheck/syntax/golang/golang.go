@@ -5,7 +5,7 @@ import (
 	"go/parser"
 	"go/token"
 
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/copycheck/syntax"
+	"github.com/bnulwh/goreporter/linters/copycheck/syntax"
 )
 
 const (

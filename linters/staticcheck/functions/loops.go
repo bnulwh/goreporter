@@ -1,6 +1,6 @@
 package functions
 
-import "github.com/360EntSecGroup-Skylar/goreporter/linters/simpler/ssa"
+import "github.com/bnulwh/goreporter/linters/simpler/ssa"
 
 type Loop map[*ssa.BasicBlock]bool
 

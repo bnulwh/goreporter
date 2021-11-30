@@ -5,7 +5,7 @@
 // https://developers.google.com/open-source/licenses/bsd.
 
 // Package lintutil provides helpers for writing linter command lines.
-package lintutil // import "github.com/360EntSecGroup-Skylar/goreporter/linters/simpler/lint/lintutil"
+package lintutil // import "github.com/bnulwh/goreporter/linters/simpler/lint/lintutil"
 
 import (
 	"errors"
@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/simpler/lint"
+	"github.com/bnulwh/goreporter/linters/simpler/lint"
 
 	"github.com/kisielk/gotool"
 	"golang.org/x/tools/go/loader"

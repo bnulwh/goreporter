@@ -1,5 +1,5 @@
 // Package simpler contains a linter for Go source code.
-package simpler // import "github.com/360EntSecGroup-Skylar/goreporter/linters/simpler"
+package simpler // import "github.com/bnulwh/goreporter/linters/simpler"
 
 import (
 	"go/ast"
@@ -11,9 +11,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/simpler/internal/sharedcheck"
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/simpler/lint"
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/simpler/ssa"
+	"github.com/bnulwh/goreporter/linters/simpler/internal/sharedcheck"
+	"github.com/bnulwh/goreporter/linters/simpler/lint"
+	"github.com/bnulwh/goreporter/linters/simpler/ssa"
 
 	"golang.org/x/tools/go/types/typeutil"
 )

@@ -13,9 +13,9 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/simpler/lint"
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/simpler/ssa"
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/staticcheck/vrp"
+	"github.com/bnulwh/goreporter/linters/simpler/lint"
+	"github.com/bnulwh/goreporter/linters/simpler/ssa"
+	"github.com/bnulwh/goreporter/linters/staticcheck/vrp"
 )
 
 const (

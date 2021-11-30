@@ -1,7 +1,7 @@
 package engine
 
 import (
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/depend"
+	"github.com/bnulwh/goreporter/linters/depend"
 )
 
 type StrategyDependGraph struct {

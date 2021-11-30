@@ -13,7 +13,7 @@ import (
 	"go/token"
 	"go/types"
 
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/simpler/ssa"
+	"github.com/bnulwh/goreporter/linters/simpler/ssa"
 	"golang.org/x/tools/go/loader"
 )
 

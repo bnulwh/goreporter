@@ -5,7 +5,7 @@
 // https://developers.google.com/open-source/licenses/bsd.
 
 // Package lint provides the foundation for tools like gosimple.
-package lint // import "github.com/360EntSecGroup-Skylar/goreporter/linters/simplecode/lint"
+package lint // import "github.com/bnulwh/goreporter/linters/simplecode/lint"
 
 import (
 	"bytes"
@@ -16,11 +16,10 @@ import (
 	"go/printer"
 	"go/token"
 	"go/types"
+	"golang.org/x/tools/go/gcexportdata"
 	"regexp"
 	"sort"
 	"strings"
-
-	"golang.org/x/tools/go/gcimporter15"
 )
 
 type Func func(*File)
@@ -216,7 +215,12 @@ argLoop:
 	return &p.problems[len(p.problems)-1]
 }
 
-var gcImporter = gcimporter.Import
+func importFunc(packages map[string]*types.Package, path, srcDir string) (*types.Package, error)  {
+	itr := gcexportdata.NewImporter(token.NewFileSet(),packages)
+	return itr.ImportFrom(path,srcDir,0)
+}
+
+var gcImporter = importFunc
 
 // importer implements go/types.Importer.
 // It also implements go/types.ImporterFrom, which was new in Go 1.6,

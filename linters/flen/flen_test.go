@@ -26,14 +26,14 @@ func trouble() {
 `
 	lengAllWant  = []int{3, 0, 1, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0}
 	funcLengWant = [][]string{
-		[]string{"0", "Len", "/Users/wangguoliang/Documents/wgliang/src/github.com/360EntSecGroup-Skylar/goreporter/linters/flen/flen.go", "81", "1"},
-		[]string{"1", "Swap", "/Users/wangguoliang/Documents/wgliang/src/github.com/360EntSecGroup-Skylar/goreporter/linters/flen/flen.go", "95", "1"},
-		[]string{"2", "rangeAsked", "/Users/wangguoliang/Documents/wgliang/src/github.com/360EntSecGroup-Skylar/goreporter/linters/flen/flen.go", "50", "1"},
-		[]string{"3", "Less", "/Users/wangguoliang/Documents/wgliang/src/github.com/360EntSecGroup-Skylar/goreporter/linters/flen/flen.go", "82", "11"},
-		[]string{"4", "getPkgPath", "/Users/wangguoliang/Documents/wgliang/src/github.com/360EntSecGroup-Skylar/goreporter/linters/flen/flen.go", "205", "17"},
-		[]string{"5", "FuncLen", "/Users/wangguoliang/Documents/wgliang/src/github.com/360EntSecGroup-Skylar/goreporter/linters/flen/flen.go", "52", "20"},
-		[]string{"6", "computeHistogram", "/Users/wangguoliang/Documents/wgliang/src/github.com/360EntSecGroup-Skylar/goreporter/linters/flen/flen.go", "98", "26"},
-		[]string{"7", "GenerateFuncLens", "/Users/wangguoliang/Documents/wgliang/src/github.com/360EntSecGroup-Skylar/goreporter/linters/flen/flen.go", "130", "70"},
+		[]string{"0", "Len", "/Users/wangguoliang/Documents/wgliang/src/github.com/bnulwh/goreporter/linters/flen/flen.go", "81", "1"},
+		[]string{"1", "Swap", "/Users/wangguoliang/Documents/wgliang/src/github.com/bnulwh/goreporter/linters/flen/flen.go", "95", "1"},
+		[]string{"2", "rangeAsked", "/Users/wangguoliang/Documents/wgliang/src/github.com/bnulwh/goreporter/linters/flen/flen.go", "50", "1"},
+		[]string{"3", "Less", "/Users/wangguoliang/Documents/wgliang/src/github.com/bnulwh/goreporter/linters/flen/flen.go", "82", "11"},
+		[]string{"4", "getPkgPath", "/Users/wangguoliang/Documents/wgliang/src/github.com/bnulwh/goreporter/linters/flen/flen.go", "205", "17"},
+		[]string{"5", "FuncLen", "/Users/wangguoliang/Documents/wgliang/src/github.com/bnulwh/goreporter/linters/flen/flen.go", "52", "20"},
+		[]string{"6", "computeHistogram", "/Users/wangguoliang/Documents/wgliang/src/github.com/bnulwh/goreporter/linters/flen/flen.go", "98", "26"},
+		[]string{"7", "GenerateFuncLens", "/Users/wangguoliang/Documents/wgliang/src/github.com/bnulwh/goreporter/linters/flen/flen.go", "130", "70"},
 	}
 )
 
@@ -158,7 +158,7 @@ func TestGetPkgPath(t *testing.T) {
 }
 
 func TestFuncLen(t *testing.T) {
-	lengAll, funcLeng := FuncLen("github.com/360EntSecGroup-Skylar/goreporter/linters/flen")
+	lengAll, funcLeng := FuncLen("github.com/bnulwh/goreporter/linters/flen")
 	if !reflect.DeepEqual(lengAll, lengAllWant) {
 		t.Errorf("want %v, but got %v", lengAll, lengAllWant)
 	}

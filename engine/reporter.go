@@ -26,7 +26,7 @@ import (
 	"github.com/golang/glog"
 	"github.com/json-iterator/go"
 
-	"github.com/360EntSecGroup-Skylar/goreporter/utils"
+	"github.com/bnulwh/goreporter/utils"
 )
 
 type Synchronizer struct {

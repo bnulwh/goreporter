@@ -1,6 +1,6 @@
 package functions
 
-import "github.com/360EntSecGroup-Skylar/goreporter/linters/simpler/ssa"
+import "github.com/bnulwh/goreporter/linters/simpler/ssa"
 
 // terminates reports whether fn is supposed to return, that is if it
 // has at least one theoretic path that returns from the function.

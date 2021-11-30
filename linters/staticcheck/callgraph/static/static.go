@@ -1,11 +1,11 @@
 // Package static computes the call graph of a Go program containing
 // only static call edges.
-package static // import "github.com/360EntSecGroup-Skylar/goreporter/linters/staticcheck/callgraph/static"
+package static // import "github.com/bnulwh/goreporter/linters/staticcheck/callgraph/static"
 
 import (
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/simpler/ssa"
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/simpler/ssa/ssautil"
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/staticcheck/callgraph"
+	"github.com/bnulwh/goreporter/linters/simpler/ssa"
+	"github.com/bnulwh/goreporter/linters/simpler/ssa/ssautil"
+	"github.com/bnulwh/goreporter/linters/staticcheck/callgraph"
 )
 
 // CallGraph computes the call graph of the specified program

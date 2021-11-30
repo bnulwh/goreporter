@@ -1,8 +1,8 @@
-package simplecode // import "github.com/360EntSecGroup-Skylar/goreporter/linters/simplecode"
+package simplecode // import "github.com/bnulwh/goreporter/linters/simplecode"
 
 import (
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/simplecode/lint/lintutil"
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/simplecode/simple"
+	"github.com/bnulwh/goreporter/linters/simplecode/lint/lintutil"
+	"github.com/bnulwh/goreporter/linters/simplecode/simple"
 )
 
 func Simple(path map[string]string, except string) []string {

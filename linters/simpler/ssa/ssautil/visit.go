@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package ssautil // import "github.com/360EntSecGroup-Skylar/goreporter/linters/simpler/ssa/ssautil"
+package ssautil // import "github.com/bnulwh/goreporter/linters/simpler/ssa/ssautil"
 
-import "github.com/360EntSecGroup-Skylar/goreporter/linters/simpler/ssa"
+import "github.com/bnulwh/goreporter/linters/simpler/ssa"
 
 // This file defines utilities for visiting the SSA representation of
 // a Program.

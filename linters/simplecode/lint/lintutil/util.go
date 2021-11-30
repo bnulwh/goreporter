@@ -5,7 +5,7 @@
 // https://developers.google.com/open-source/licenses/bsd.
 
 // Package lintutil provides helpers for writing linter command lines.
-package lintutil // import "github.com/360EntSecGroup-Skylar/goreporter/linters/simplecode/lint/lintutil"
+package lintutil // import "github.com/bnulwh/goreporter/linters/simplecode/lint/lintutil"
 
 import (
 	"flag"
@@ -16,9 +16,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/simplecode/lint"
+	"github.com/bnulwh/goreporter/linters/simplecode/lint"
 
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/simplecode/gotool"
+	"github.com/bnulwh/goreporter/linters/simplecode/gotool"
 )
 
 var (
